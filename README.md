@@ -1,52 +1,25 @@
-# Welcome to your Expo app 👋
+# CatDiary
 
-pra lembrar: npx drizzle-kit generate (gera as tabelas do bd)
+O projeto CatDiary busca atuar como um gerenciador das informações do seu pet, com enfoque em gatos. Por meio dele, é possível cadastrar as principais informações sobre os seus gatos, como nome, descrição, raça, idade, entre outros. O app conta também com uma galeria interna de imagens que armazena fotos de cada gato, permitindo o fácil reconhecimento e navegação.
+Além disso, em iterações futuras, será possível adicionar dados sobre a caderneta de vacinação de cada animal, permitindo que vacinações futuras sejam notificadas pelo app conforme a data de aplicação se aproxima, garantindo o bem estar do animal.
+Também, será criada uma seção para gerenciar notas com informações relevantes, como por exemplo, indicar que tipo de ração cada animal come ou quais foram as recomendações médicas passadas por um veterinário.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Autor
+Guilherme Macedo Gara Tavares
 
-## Get started
+## Instruções de instalação
+Para instalar, será necessário ter instalado no local de execução do servidor Expo o Node.js na versão 22.
 
-1. Install dependencies
+Além disso, para execução do aplicativo em um smartphone no modo de desenvolvimento, será necessário instalar o aplicativo [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&pli=1)
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+Para instalar, após clonar este projeto localmente, acesse a pasta do projeto e digite o seguinte comando para instalar as dependências necessárias:
+```
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Após a finalização da instalação, inicie a execução do projeto por meio do comando:
+```
+npm start
+```
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Após a aparição de um QR code, pressione 's' para mudar para o modo de execução do Expo Go, abra o aplicativo em seu smartphone e clique no botão "Scan QR code" e escaneie o QR code exibido no terminal. O projeto irá compilar o códido e assim que finalizar será possível utilizar o CatDiary.
